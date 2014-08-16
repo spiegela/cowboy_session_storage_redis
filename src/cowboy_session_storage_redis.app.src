@@ -1,0 +1,9 @@
+{application, cowboy_session_storage_redis,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [ kernel, stdlib ]},
+  {mod, { cowboy_session_storage_redis, []}},
+  {env, []}
+ ]}.
